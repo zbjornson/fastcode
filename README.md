@@ -29,6 +29,11 @@ Submissions welcome!
   ISA: SSE or SSE4. (In my benchmarks on a Skylake processor, the SSE
   implementation is faster than the SSE4 implementation.)
 
+* [sse-popcount](https://github.com/WojciechMula/sse-popcount) - A few dozen
+  implementations of population counting.  
+  Type: C++ implementations with benchmarks.  
+  ISA: SSE, SSSE3, AVX2, AVX512 or NEON
+
 * [sse4_crc32](https://github.com/anandsuresh/sse4_crc32) and its wrapper with
   JS-fallback [fast-crc32c](https://github.com/ashi009/node-fast-crc32c) -
   CRC32C calculation for buffers.  
