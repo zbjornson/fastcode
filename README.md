@@ -6,7 +6,8 @@ Submissions welcome!
 
 * [base64](https://github.com/aklomp/base64) - **Base64 encoding/decoding**.  
   Type: C99 library.  
-  ISA: SSSE3, SSE4.1, SSE4.2, AVX, AVX2, NEON; OpenMP. Node.js bindings are  available [here](https://github.com/lovell/64).
+  Node.js bindings: https://github.com/lovell/64
+  ISA: SSSE3, SSE4.1, SSE4.2, AVX, AVX2, NEON; OpenMP.  
 
 * [bswap](https://github.com/zbjornson/node-bswap) - **Byte-swapping** faster than
   Node.js's built-in `Buffer.swap16/32/64()`.  
@@ -16,6 +17,12 @@ Submissions welcome!
 * [fast-hex](https://github.com/zbjornson/fast-hex) - **Hex encoding/decoding**.  
   Type: C++ header and Node.js module.  
   ISA: AVX2.
+
+* [isal](https://github.com/01org/isa-l) - **crc, erasure coding and
+  deflate** from the Intel Intelligent Storage Acceleration Library (ISA-L)].  
+  Type: C and assembly.  
+  Node.js bindings: https://github.com/primitybio/node-isal  
+  ISA: Runtime dispatch using up to AVX-512
 
 * [levenshtein-sse](https://github.com/addaleax/levenshtein-sse) - **Levenshtein distance**.  
   Type: C++ header.  
