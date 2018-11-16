@@ -12,7 +12,7 @@ Submissions welcome!
 * [bswap](https://github.com/zbjornson/node-bswap) - **Byte-swapping** faster than
   Node.js's built-in `Buffer.swap16/32/64()`.  
   Type: Node.js module.  
-  ISA: SSSE3, AVX2.
+  ISA: SSSE3, AVX2, AVX512, NEON.
 
 * [fast-hex](https://github.com/zbjornson/fast-hex) - **Hex encoding/decoding**.  
   Type: C++ header and Node.js module.  
