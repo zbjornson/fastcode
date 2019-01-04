@@ -18,8 +18,7 @@ Submissions welcome!
   Type: C++ header and Node.js module.  
   ISA: AVX2.
 
-* [isal](https://github.com/01org/isa-l) - **crc, erasure coding and
-  deflate** from the Intel Intelligent Storage Acceleration Library (ISA-L)].  
+* [ISA-L](https://github.com/01org/isa-l) - **crc, erasure coding and deflate** in the Intel Intelligent Storage Acceleration Library (ISA-L)].  
   Type: C and assembly.  
   Node.js bindings: https://github.com/primitybio/node-isal  
   ISA: Runtime dispatch using up to AVX-512
@@ -32,32 +31,23 @@ Submissions welcome!
   Type: C library.  
   ISA: MMX, SSE2, AVX2, NEON, AltiVec.
 
-* Ivan Dimokvic's implementation of **MWC1616 pseudo-random number generator**. His
-  original code post is no longer online, but a version of it is here: 
-  https://github.com/andeplane/MWC1616-PRNG-CPP.  
+* Ivan Dimokvic's implementation of **MWC1616 pseudo-random number generator**. His original code post is no longer online, but a version of it is here: https://github.com/andeplane/MWC1616-PRNG-CPP.  
   Type: Originally C, that repo is C++.  
-  ISA: SSE or SSE4. (In my benchmarks on a Skylake processor, the SSE
-  implementation is faster than the SSE4 implementation.)
+  ISA: SSE or SSE4. (In my benchmarks on a Skylake processor, the SSE implementation is faster than the SSE4 implementation.)
 
-* [sse-popcount](https://github.com/WojciechMula/sse-popcount) - A few dozen
-  implementations of **population counting**.  
+* [sse-popcount](https://github.com/WojciechMula/sse-popcount) - A few dozen implementations of **population counting**.  
   Type: C++ implementations with benchmarks.  
   ISA: SSE, SSSE3, AVX2, AVX512 or NEON
 
-* [sse4_crc32](https://github.com/anandsuresh/sse4_crc32) and its wrapper with
-  JS-fallback [fast-crc32c](https://github.com/ashi009/node-fast-crc32c) -
-  **CRC32C calculation** for buffers.  
+* [sse4_crc32](https://github.com/anandsuresh/sse4_crc32) and its wrapper with JS-fallback [fast-crc32c](https://github.com/ashi009/node-fast-crc32c) - **CRC32C calculation** for buffers.  
+  Note: ISA-L (above) is up to ~3.4x faster.  
   Type: Node.js module.  
   ISA: SSE4.2.
 
-* [turbo-net](https://github.com/mafintosh/turbo-net) - Low-level **TCP** library
-  faster than Node.js's core TCP module.  
+* [turbo-net](https://github.com/mafintosh/turbo-net) - Low-level **TCP** library faster than Node.js's core TCP module.  
   Type: Node.js module.  
   ISA: Generic.
 
-* [volk](https://github.com/gnuradio/volk) - Librarary of vector-optimized
-  **kernels**. A lot of these look like they will be memory throughput-limited, but
-  they show how to do various tasks if you want to combine them to make your own
-  fast functions.  
+* [volk](https://github.com/gnuradio/volk) - Librarary of vector-optimized **kernels**. A lot of these look like they will be memory throughput-limited, but they show how to do various tasks if you want to combine them to make your own fast functions.  
   Type: C.  
   ISA: Various (looks like up to AVX2).
